@@ -164,3 +164,15 @@ botonPost.addEventListener('click', function(e){
 
     tareaInput.value = "";
 });
+
+const botonesEliminar = document.querySelectorAll(".btn-eliminar");
+
+botonesEliminar.forEach((boton, indice) => {
+
+    boton.addEventListener("click", function(){
+
+        tareas[indice].textContent = "Tu tarea creada";
+
+    });
+
+});
