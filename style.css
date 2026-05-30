@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: sans-serif;
+}
+
+form {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    padding: 20px;
+    text-align: center;
+    margin: 150px ; 
+}
+
+input, textarea {
+    width: 70%; 
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    border-color: rgb(201, 199, 199);
+    border-style: groove;
+    border-width: thin;
+    margin-left: 3%; 
+}
+
+#btn-post{
+    width: 18%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 1%;
+    margin-bottom: 20px;
+}
+
+.tareaCreada{
+    /* border: 1px solid; */
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex: 1;
+    width: 94%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    margin: 20px;
+    padding-right: 10px;
+}
+
+.tareaCreada p{
+    
+    /* width: 92%; */
+    margin-bottom: 15px;
+    
+    padding-left: 3%;
+    border: none;
+    border-style: groove;
+    border-width: thin;
+    /* margin-right: 3%; */
+    flex: 1;
+    text-align: left;
+    opacity: 0.5;
+}
+
+.tareaCreada button {
+    width: 18%;
+    background-color: rgba(226, 33, 33, 0.885);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn-post:hover{
+    background-color: rgb(13, 126, 240);
+}
+.btn-eliminar:hover {
+    background-color: rgba(174, 10, 10, 0.841);
+}
